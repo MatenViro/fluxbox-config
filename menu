@@ -16,11 +16,10 @@
 #     session.menuFile: ~/.fluxbox/my-menu
 [begin] (Fluxbox)
 [encoding] {UTF-8}
-      [exec] (Change Bg) {fbsetbg -l}
-[submenu] (Terminals)
-      [exec] (vte) (vte)
-      [exec] (xterm) {xterm} 
-[end]
+	[exec] (Rotate Wallpaper) {fbsetbg -l}
+	[separator]
+
+# Fluxbox native elements
 [submenu] (Fluxbox menu)
       [config] (Configure) 
 [submenu] (System Styles) {Choose a style...}

@@ -69,6 +69,13 @@ Mod1 F2 :Exec fbrun
 174 :Exec amixer sset Master,0 1-
 160 :Exec amixer sset Master,0 toggle
 
+
+# Logitech
+122 :Exec amixer sset Master,0 1-
+123 :Exec amixer sset Master,0 1+
+121 :Exec amixer sset Master,0 toggle
+
+
 # current window commands
 Mod1 F4 :Close
 Mod1 F5 :Kill
