@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+setxkbmap -layout us,ru -variant dvp,winkeys -option grp:toggle, grp_led:scroll, compose:rctrl, ctrl:nocaps, lv3:lwin_switch, esperanto:dvorak
+
+parcellite &
+
+~/workspace/vt-switch-locker/xscreensaver.py start
+
+exec fluxbox
